@@ -1,0 +1,7 @@
+{
+  "[csharp]": {
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showSnippets": true
+  }
+}
