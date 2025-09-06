@@ -1,0 +1,58 @@
+# ---- Build / Artefactos
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+artifacts/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ---- Visual Studio / IDEs
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---- VS Code (ignora datos de máquina, conserva config útil)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ---- NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# Nota: normalmente SÍ conviene commitear packages.lock.json para builds reproducibles
+# packages.lock.json
+
+# ---- Rider/ReSharper (si llegas a usarlos)
+.idea/
+*.DotSettings.user
+_ReSharper.Caches/
+
+# ---- Otros archivos transitorios
+*.dbmdl
+*.jfm
+*.svclog
+*.pidb
+*.scc
+
+# ---- ASP.NET / proyectos web
+wwwroot/lib/
+node_modules/
+dist/
+
+# ---- Config local / secretos (usa 'dotnet user-secrets' en desarrollo)
+appsettings.*.local.json
+# Nunca subas certificados/secretos:
+# *.pfx
+# secrets.json
+
+# ---- OS
+.DS_Store
+Thumbs.db
