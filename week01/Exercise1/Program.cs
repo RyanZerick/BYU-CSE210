@@ -8,8 +8,6 @@ using System;
 // MODULO 2 : main
 // -------------------------------------------------------
 
-Console.WriteLine("Proving things");
-
 string name = Ask("What is your first name? ");
 string last_name = Ask("What is your last name? ");
 
